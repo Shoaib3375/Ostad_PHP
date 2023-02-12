@@ -18,3 +18,7 @@ function factorial( $n ) { // we can use int type in parameter
     }
     return $result;
 }
+
+function serve( $foodType = "Coffee", $numberOfItems = "1 cup" ) {
+    echo "{$numberOfItems} of {$foodType} has been served";
+}
