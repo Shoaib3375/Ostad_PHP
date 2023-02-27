@@ -4,3 +4,5 @@ Hints :
 $str = "The quick brown fox jumped over the lazy dog";
 echo longestWord($str);
 Output: jumped
+
+r Inheritance to ai rokom na .Nurul Islam Shihan vaiya bolsilo. why php not supported Multiple Inheritance
