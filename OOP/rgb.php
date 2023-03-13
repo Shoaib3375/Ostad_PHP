@@ -24,4 +24,3 @@ class RGB {
     }
 }
 new RGB( "#ffef27" );
-echo 'hell';

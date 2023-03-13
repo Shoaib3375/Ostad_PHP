@@ -1,35 +1,32 @@
 {
     "workbench.iconTheme": "material-icon-theme",
-    // "editor.autoClosingBrackets": false,
+
     "prettier.tabWidth": 4,
     "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', 'Fira Code', monospace",
     "[php]": {
         "editor.defaultFormatter": "kokororin.vscode-phpfmt",
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": true
     },
     "editor.formatOnSave": false,
 
-    
-    // Set the default
+ 
 
     "editor.fontSize": 15,
     "phpfmt.php_bin": "C:\\xampp\\php\\php.exe",
 
     "phpfmt.passes": [
         
-        // "PSR2CurlyOpenNextLine",
-        // "PSR2ModifierVisibilityStaticOrder",
-        // "PSR2SingleEmptyLineAndStripClosingTag",
+       
         "ReindentSwitchBlocks",
         "AlignDoubleArrow",
-        "SpaceAroundParentheses",
+        "SpaceAroundParentheses"
         
     ],
     "phpfmt.exclude": ["ReindentComments", "StripNewlineWithinClassBody","AllmanStyleBraces"],
     "phpfmt.psr2": false,
     "workbench.statusBar.visible": true,
     "problems.showCurrentInStatus": true,
-    // "C_Cpp.updateChannel": "Insiders",
+
     "diffEditor.ignoreTrimWhitespace": true,
     "git.autofetch": true,
     
@@ -63,5 +60,5 @@
     "editor.guides.bracketPairs": true,
 
     "workbench.colorTheme": "One Dark Pro"
-    // Enable per-language
+    
 }
