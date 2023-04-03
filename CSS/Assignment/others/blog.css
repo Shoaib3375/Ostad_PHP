@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(127, 175, 104, 0.548);
+}
+.p_post{
+    font-size: 18px;
+    color: whitesmoke;
+    text-align: justify;
+    /* display: inline; */
+    display: block;
+    
+}
+.author-name{
+    color: rgb(255, 223, 117);
+}
+.aaa{
+    font-size: 20px;
+    color: rgba(46, 224, 91, 0.979);
+
+}
+.post{
+    background-color: rgb(155, 148, 146);
+    border: 7px solid rgb(238, 202, 0);
+    border-radius:10px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 50%;
+    
+
+}
+.post h3{
+    font-weight: 100;
+    text-align: center;
+    color: rgb(166, 255, 0);
+    
+}

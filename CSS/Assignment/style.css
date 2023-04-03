@@ -1,0 +1,193 @@
+body {
+  background-color: rgba(127, 175, 104, 0.548);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+nav img{
+height: 60px;
+width: 100px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #f1c40f;
+}
+
+.featured-post {
+  background-color: #f9f9f9;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.featured-post img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.featured-post h2 {
+  margin-bottom: 20px;
+}
+
+.featured-post p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+
+
+
+header h1 {
+	margin: 0;
+}
+
+
+main {
+	
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+.blog-posts {
+	flex-basis: 70%;
+    padding: 20px;
+	margin-right: 20px;
+}
+
+.blog-posts h2 {
+	margin-bottom: 10px;
+}
+
+.blog-posts article {
+	margin-bottom: 20
+}
+
+.p_post{
+  font-size: 18px;
+  color: whitesmoke;
+  text-align: justify;
+  /* display: inline; */
+  display: block;
+  
+}
+.author-name{
+  color: rgb(255, 223, 117);
+}
+.aaa{
+  font-size: 20px;
+  color: rgba(46, 224, 91, 0.979);
+
+}
+.post{
+  background-color: rgb(155, 148, 146);
+  border: 7px solid rgb(238, 202, 0);
+
+  border-radius:10px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  width: 50%;
+  
+
+}
+.post h3{
+  font-weight: 100;
+  text-align: center;
+  color: rgb(166, 255, 0);
+  
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #14d9d3;
+}
+.btn{
+  height: 30px;
+  width: 50px;
+  border-radius: 5px;
+}
