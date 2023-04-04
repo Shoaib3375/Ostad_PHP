@@ -1,85 +1,100 @@
-<!DOCTYPE html>
-<html>
+<?php include "./header.php" ?>
 
-<head>
-    <title>My Blog</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-
-<body>
-    <header>
-
-        <nav>
-            <img src="logo.png">
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="blog.php">Blog</a></li>
-                <li><a href="contact.php">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
     <main>
-        <div class="post">
+        <section class="featured blog-page">
+            <div class="container">
+                <div class="content">
+                    <div class="headline">
+                        <h1>blog post</h1>
+                    </div>
 
-            <h3 class="head3">My Sajek Tour During with Bou</h3>
-            <small><span class="aaa">Author: </span> <span class="author-name">luvy</span></small>
-            <p class="p_post">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum nisi consequuntur eligendi
-                eum distinctio, vero laboriosam autem architecto, optio natus totam. Minima rem libero facilis, magnam
-                explicabo repellat provident illum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum nisi
-                consequuntur eligendi eum distinctio, vero laboriosam autem architecto, optio natus totam. Minima rem
-                libero
-                facilis
-                magnam explicabo repellat provident illum.
-            </p>
-            <button > Read More>></button>
-        </div>
-        <div class="post">
-            <h3>Saint Martin with Spacial One</h3>
-            <small><span class="aaa">Author: </span> <span class="author-name"><a
-                        href="https://www.facebook.com/m3s7a/">shoaib</a> </span></small>
-            <p class="p_post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nesciunt delectus ab
-                provident error suscipit! Ipsum, nulla sunt velit illo minus ducimus cum aperiam dicta excepturi. Nisi
-                dolores et laborum.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum nisi consequuntur
-                eligendi eum distinctio, vero laboriosam autem architecto, optio natus totam. Minima rem libero facilis,
-                magnam explicabo repellat provident illum.</p>
-            <button> Read More>></button>
-        </div>
-        <div class="post">
-            <h3>Deep Dive in Cox's Bazar</h3>
-            <small><span class="aaa">Author: </span> <span class="author-name">Saint Jocep</span></small>
-            <p class="p_post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta et rem sit maxime
-                reiciendis
-                accusantium quis, consequatur voluptas temporibus similique repellat sunt alias, est ipsam repellendus
-                perspiciatis cumque earum cum?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum nisi
-                consequuntur eligendi eum distinctio, vero laboriosam autem architecto, optio natus totam. Minima rem
-                libero
-                facilis, magnam explicabo repellat provident illum.
-            </p>
-            <button> Read More>></button>
-        </div>
+                    <div class="featured-area">
+                        <article class="featured-post">
+                            <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
+                                 alt="" srcset="">
+                            <div class="featured-post-body">
+                                <h2><a href="blog-details.php">Lorem ipsum dolor sit amet.</a></h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptates commodi omnis harum
+                                    distinctio repudiandae...</p>
+                                <a class="read-more" href="blog-details.php">Read More</a>
+                            </div>
+                        </article>
+                        <article class="featured-post">
+                            <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
+                                 alt="" srcset="">
+                            <div class="featured-post-body">
+                                <h2><a href="blog-details.php">Lorem ipsum dolor sit amet.</a></h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptates commodi omnis harum
+                                    distinctio repudiandae...</p>
+                                <a class="read-more" href="blog-details.php">Read More</a>
+                            </div>
+                        </article>
+                        <div class="featured-post mr-0">
+                            <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
+                                 alt="" srcset="">
+                            <div class="featured-post-body">
+                                <h2><a href="blog-details.php">Lorem ipsum dolor sit amet.</a></h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptates commodi omnis harum
+                                    distinctio repudiandae...</p>
+                                <a class="read-more" href="blog-details.php">Read More</a>
+                            </div>
+                        </div>
+                        <article class="featured-post">
+                            <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
+                                 alt="" srcset="">
+                            <div class="featured-post-body">
+                                <h2><a href="blog-details.php">Lorem ipsum dolor sit amet.</a></h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptates commodi omnis harum
+                                    distinctio repudiandae...</p>
+                                <a class="read-more" href="blog-details.php">Read More</a>
+                            </div>
+                        </article>
+                        <article class="featured-post">
+                            <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
+                                 alt="" srcset="">
+                            <div class="featured-post-body">
+                                <h2><a href="blog-details.php">Lorem ipsum dolor sit amet.</a></h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptates commodi omnis harum
+                                    distinctio repudiandae...</p>
+                                <a class="read-more" href="blog-details.php">Read More</a>
+                            </div>
+                        </article>
+                        <div class="featured-post mr-0">
+                            <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
+                                 alt="" srcset="">
+                            <div class="featured-post-body">
+                                <h2><a href="blog-details.php">Lorem ipsum dolor sit amet.</a></h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptates commodi omnis harum
+                                    distinctio repudiandae...</p>
+                                <a class="read-more" href="blog-details.php">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <aside>
+                    <div class="sidebar">
+                        <div class="headline">
+                            <h1>Sidebar</h1>
+                        </div>
+                        <div class="same-sidebar">
+                            <form action="">
+                                <label for="">Search</label>
+                                <input type="text" placeholder="Search here...">
+                            </form>
+                        </div>
+                        <div class="same-sidebar">
+                            <label for="">Categories</label>
+                            <ul>
+                                <li><a href="">Category1</a></li>
+                                <li><a href="">Category2</a></li>
+                                <li><a href="">Category3</a></li>
+                                <li><a href="">Category4</a></li>
+                                <li><a href="">Category5</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
     </main>
-    <aside>
-        <section class="search-bar">
-            <h3>Search</h3>
-            <form action="#" method="get">
-                <label for="search-input">Search:</label>
-                <input type="text" id="search-input" name="search" placeholder="Search...">
-                <button type="submit">Go</button>
-            </form>
-        </section>
-        <section class="categories">
-            <h3>Categories</h3>
-            <ul>
-                <li><a href="#">Category 1</a></li>
-                <li><a href="#">Category 2</a></li>
-                <li><a href="#">Category 3</a></li>
-            </ul>
-        </section>
-    </aside>
-
-    <footer>
-        <p>&copy; My Blog 2023</p>
-    </footer>
-</body>
-
-</html>
+<?php include "./footer.php" ?>

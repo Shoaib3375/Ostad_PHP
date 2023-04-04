@@ -1,253 +1,349 @@
-body {
-  background-color: rgba(127, 175, 104, 0.548);
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-}
-
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.logo a {
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: auto;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-}
-nav img{
-height: 60px;
-width: 100px;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-nav li {
-  margin-left: 20px;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 16px;
-  transition: color 0.2s ease-in-out;
-}
-
-nav a:hover {
-  color: #f1c40f;
-}
-
-.featured-post {
-  background-color: #f9f9f9;
-  padding: 50px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-}
-
-.featured-post img {
-  max-width: 100%;
-  margin-bottom: 20px;
-}
-
-.featured-post h2 {
-  margin-bottom: 20px;
-}
-
-.featured-post p {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-
-
-
-header h1 {
-	margin: 0;
-}
-
-
-main {
-	
-	flex-wrap: wrap;
-	padding: 20px;
-}
-
-.blog-posts {
-	flex-basis: 70%;
-    padding: 20px;
-	margin-right: 20px;
-}
-
-.blog-posts h2 {
-	margin-bottom: 10px;
-}
-
-.blog-posts article {
-	margin-bottom: 20
-}
-
-.p_post{
-  font-size: 18px;
-  color: whitesmoke;
-  text-align: justify;
-  /* display: inline; */
-  display: block;
-  
-}
-.author-name{
-  color: rgb(255, 223, 117);
-}
-.aaa{
-  font-size: 20px;
-  color: rgba(46, 224, 91, 0.979);
-
-}
-.post{
-  background-color: rgb(155, 148, 146);
-  border: 7px solid rgb(238, 202, 0);
-
-  border-radius:10px;
-  margin: 10px auto;
-  padding: 10px 20px;
-  width: 50%;
-  
-
-}
-.post h3{
-  font-weight: 100;
-  text-align: center;
-  color: rgb(166, 255, 0);
-  
-}
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-
-
-
-header h1 {
-  margin: 0;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.mr-0{margin-right: 0 !important;}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 15px;
 }
 
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+/* header css style  */
+header {
+    background: #ddd;
+    width: 100%;
+    height: 68px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
-nav li {
-  display: inline-block;
-  margin: 0 10px;
+header .logo {
+    width: 20%;
+    float: left;
+    margin-top: 10px;
 }
 
-nav a {
-  color: #fff;
-  text-decoration: none;
-}
-
-
-
-.contact-form {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.contact-form h2 {
-  margin-bottom: 20px;
-}
-
-.contact-form label {
-  display: block;
-  margin-bottom: 10px;
-}
-
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #14d9d3;
-}
-.btn{
-  height: 30px;
-  width: 50px;
-  border-radius: 5px;
-}
-@media screen and (min-width: 1024px) {
-  .gfg-div {
-    background-color: #63c971;
-    color: #fff;
-  }
-}
-
-/* For Tablet View */
-@media screen and (min-device-width: 768px)
-and (max-device-width: 1024px) {
-  .gfg-div {
-    width: 400px;
-    height: 400px;
-    background-color: orange;
-    color: black;
-  }
-}
-
-/* For Mobile Portrait View */
-@media screen and (max-device-width: 480px)
-and (orientation: portrait) {
-  .gfg-div {
+header .logo img {
     width: 200px;
-    height: 200px;
-    background-color: red;
+}
+
+header nav {
+    width: 78%;
+    float: left;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+    margin-top: 25px;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    margin-right: 5px;
+    color: #444;
+}
+
+/* featured area  */
+.featured{
+    margin: 80px 0px;
+    overflow: hidden;
+}
+.featured-area {
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.headline{margin-bottom: 10px;/*! text-transform: capitalize; *//*! font-size: 22px; */}
+.headline h1{text-transform: capitalize;font-size: 24px;border-left: 10px solid #ddd;padding-left: 10px;}
+
+.featured-area .featured-post {
+    width: calc(25% - 12px);
+    max-width: 100%;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+@media (max-width: 991px) {
+    .featured-area .featured-post {
+        width: calc(33.33% - 12px);
+    }
+}
+
+@media (max-width: 767px) {
+    .featured-area .featured-post {
+        width: calc(50% - 12px);
+    }
+}
+
+@media (max-width: 575px) {
+    .featured-area .featured-post {
+        width: 100%;
+    }
+}
+
+.featured-area .featured-post img {
+    width: 100%;
+}
+.featured-area .featured-post .featured-post-body {
+    padding: 10px;
+}
+
+.featured-area .featured-post h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0px;
+}
+.featured-area .featured-post h2 a{
+    text-decoration: none;
+    color: #000;
+}
+
+.featured-area .featured-post p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.featured-area .featured-post a.read-more {
+    text-decoration: navajowhite;
+    color: #000;
+    border: 1px solid #ddd;
+    padding: 3px 5px;
+    margin: 10px 0px;
+    display: inline-block;
+    font-size: 14px;
+    text-align: right;
+    transition: 0.5s all;
+}
+
+.featured-area .featured-post a.read-more:hover {
+    background-color: #000;
     color: #fff;
-  }
+    border: 1px solid;
 }
 
-/* For Mobile Landscape View */
-@media screen and (max-device-width: 640px)
-and (orientation: landscape) {
-  .gfg-div {
-    width: 400px;
-    height: 200px;
-    background-color: cyan;
-    color: black;
-  }
+/* blog page style  */
+.blog-page .container {
+    gap: 30px 15px;
+    display: flex;
 }
 
-/* For Mobile Phones Portrait or Landscape View */
-@media screen and (max-device-width: 640px) {
-  .gfg-div {
-    width: 400px;
-    height: 200px;
-    background-color: chartreuse;
-    color: black;
-  }
+@media (max-width: 1199px) {
+    .blog-page .container {
+        flex-direction: column;
+    }
 }
 
-/* For iPhone 4 Portrait or Landscape View */
-@media screen and (min-device-width: 320px)
-and (-webkit-min-device-pixel-ratio: 2) {
-  .gfg-div {
-    width: 400px;
-    height: 400px;
-    background-color: brown;
-    color: black;
-  }
+.content .featured-area .featured-post {
+    width: calc(33.33% - 12px);
+    border: 1px solid #ddd;
+    overflow: hidden;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+@media (max-width: 991px) {
+    .content .featured-area .featured-post {
+        width: calc(33.33% - 12px);
+    }
+}
+
+@media (max-width: 767px) {
+    .content .featured-area .featured-post {
+        width: calc(50% - 12px);
+    }
+}
+
+@media (max-width: 575px) {
+    .content .featured-area .featured-post {
+        width: 100%;
+    }
+}
+
+.same-sidebar {
+    margin: 15px 0px;
+}
+.same-sidebar label {
+    display: block;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.same-sidebar form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    outline: 0;
+}
+
+.same-sidebar ul {
+
+    list-style-type: none;
+}
+.same-sidebar ul li{
+
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0px;
+}
+.same-sidebar ul li:last-child{
+
+    border-bottom: 0px solid #ddd;
+    padding: 5px 0px;
+}
+.same-sidebar ul li a{
+
+    text-decoration: none;
+    color: #444;
+    transition: 0.5s all;
+}
+.same-sidebar ul li a:hover{
+    color: #000;
+}
+.single-post-p p{
+    margin: 10px 0;
+}
+
+/* post share css  */
+.share-post{
+    border: 1px solid #ddd;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.share-post h2{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.share-post ul{
+
+    list-style-type: none;
+}
+.share-post ul li{
+
+    float: left;
+    margin: 10px 5px;
+}
+.share-post ul li a{
+
+    text-decoration: none;
+    font-size: 16px;
+}
+.share-post .social{
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+}
+.share-post .fb{
+    background-color: #1877f2;
+}
+.share-post .in{
+    background-color: #c32aa3;
+}
+.share-post .tw{
+    background-color: #1da1f2;
+}
+.share-post .li{
+    background-color: #0a66c2;
+}
+.share-post ul li a:hover{
+
+}
+
+/* blog details page */
+.featured .container {
+    gap: 30px;
+    display: flex;
+}
+
+.featured .container .content {
+    width: 80%;
+}
+
+@media (max-width: 1199px) {
+    .featured {
+        margin: 40px 0px;
+    }
+
+    .featured .container {
+        flex-direction: column;
+    }
+
+    .featured .container .content {
+        width: 100%;
+    }
+}
+
+.single-post {
+    flex-direction: column;
+}
+
+.single-post .featured-post {
+    width: 100% !important;
+}
+
+.featured.home-page .container {
+    flex-direction: column;
+}
+
+/* contact page css */
+.contact-area {
+    margin: 80px 0px;
+    /*! background: #ddd; */
+}
+.contact-form label {
+    display: block;
+    font-size: 14px;
+    padding: 5px 0px;
+}
+.contact-form input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: 0;
+}
+.contact-form button {
+    border: 1px solid #444;
+    padding: 10px 10px;
+    background: none;
+    cursor: pointer;
+    transition: 0.5s all;
+    font-size: 14px;
+    float: right;
+    margin-top: 10px;
+}
+.contact-form button:hover {
+    background-color: #444;
+    color: #fff;
+}
+.contact-box p{
+    font-size: 18px;
+    margin: 20px 0px;
+
+}
+
+
+/* footer css */
+footer {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
 }
