@@ -10,7 +10,7 @@
 
                     <div class="featured-area">
                         <article class="featured-post">
-                            <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
+                            <img src="main.png"
                                  alt="" srcset="">
                             <div class="featured-post-body">
                                 <h2><a href="blog-details.php">Lorem ipsum dolor sit amet.</a></h2>
@@ -20,7 +20,7 @@
                             </div>
                         </article>
                         <article class="featured-post">
-                            <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
+                            <img src="main.png"
                                  alt="" srcset="">
                             <div class="featured-post-body">
                                 <h2><a href="blog-details.php">Lorem ipsum dolor sit amet.</a></h2>
@@ -30,7 +30,7 @@
                             </div>
                         </article>
                         <div class="featured-post mr-0">
-                            <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
+                            <img src="main.png"
                                  alt="" srcset="">
                             <div class="featured-post-body">
                                 <h2><a href="blog-details.php">Lorem ipsum dolor sit amet.</a></h2>
@@ -40,7 +40,7 @@
                             </div>
                         </div>
                         <article class="featured-post">
-                            <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
+                            <img src="main2.png"
                                  alt="" srcset="">
                             <div class="featured-post-body">
                                 <h2><a href="blog-details.php">Lorem ipsum dolor sit amet.</a></h2>
@@ -50,7 +50,7 @@
                             </div>
                         </article>
                         <article class="featured-post">
-                            <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
+                            <img src="main2.png"
                                  alt="" srcset="">
                             <div class="featured-post-body">
                                 <h2><a href="blog-details.php">Lorem ipsum dolor sit amet.</a></h2>
@@ -60,7 +60,7 @@
                             </div>
                         </article>
                         <div class="featured-post mr-0">
-                            <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
+                            <img src="main2.png"
                                  alt="" srcset="">
                             <div class="featured-post-body">
                                 <h2><a href="blog-details.php">Lorem ipsum dolor sit amet.</a></h2>

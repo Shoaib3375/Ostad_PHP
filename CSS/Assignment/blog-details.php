@@ -8,10 +8,10 @@
                             <h1>Lorem ipsum dolor sit amet.</h1>
                         </div>
                         <div class="featured-post">
-                            <img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg"
+                            <img src="main.png"
                                  alt="" srcset="">
                             <div class="featured-post-body single-post-p">
-                                <span>Author: Sabbir Ahmmed</span><br>
+                                <span>Author: Shoaib Islam</span><br>
                                 <span>Date: 19/02/23</span>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum illum adipisci dolores laboriosam voluptatum eum temporibus esse itaque eius explicabo pariatur eaque et beatae illo numquam optio, ut molestiae distinctio omnis dolore autem vitae repellendus. Harum sunt ab eum, facilis minima vitae maxime laborum excepturi rem nostrum, itaque expedita quis tenetur pariatur reiciendis in quam neque! Nulla fugiat non animi rerum perferendis dolor quae laudantium magni eius, ducimus recusandae quaerat sapiente praesentium reprehenderit dolorem magnam consequuntur? Ducimus necessitatibus harum itaque fugit veniam placeat consequatur reiciendis illo laborum laboriosam sapiente, ut similique, laudantium ipsum expedita dicta, quasi hic fugiat? Voluptatem, beatae?</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum illum adipisci dolores laboriosam voluptatum eum temporibus esse itaque eius explicabo pariatur eaque et beatae illo numquam optio, ut molestiae distinctio omnis dolore autem vitae repellendus. Harum sunt ab eum, facilis minima vitae maxime laborum excepturi rem nostrum, itaque expedita quis tenetur pariatur reiciendis in quam neque! Nulla fugiat non animi rerum perferendis dolor quae laudantium magni eius, ducimus recusandae quaerat sapiente praesentium reprehenderit dolorem magnam consequuntur? Ducimus necessitatibus harum itaque fugit veniam placeat consequatur reiciendis illo laborum laboriosam sapiente, ut similique, laudantium ipsum expedita dicta, quasi hic fugiat? Voluptatem, beatae?</p>
@@ -22,9 +22,9 @@
                     <div class="share-post">
                         <h2>the post share on social media?</h2>
                         <ul>
-                            <li><a href="https://www.facebook.com/" class="social fb">Facebook</a></li>
+                            <li><a class="social fb" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://YOUR-SITE-HERE.com">Facebook</a></li>
                             <li><a href="https://www.instagram.com/" class="social in">Instagram</a></li>
-                            <li><a href="https://twitter.com" class="social tw">Twitter</a></li>
+                            <li>  <a  href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="social tw" >Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
                             <li><a href="https://www.linkedin.com/" class="social li">LinkedIn</a></li>
                         </ul>
                     </div>

@@ -87,10 +87,10 @@
 /* Fake image */
 /*bg image*/
 .bg-img-nature{
-    background-image: url("main.png");
+    background-image: url("../Assignment/main.png");
 }
 .bg-img-bee{
-    background-image: url("main2.png");
+    background-image: url("../Assignment/main2.png");
     width: 600px;
 }
 .fakeimg {
