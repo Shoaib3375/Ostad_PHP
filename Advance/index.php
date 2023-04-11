@@ -34,12 +34,17 @@
                 $fname = '';
                 $lname = '';
                 ?>
-                <?php if (isset($_REQUEST['fname']) && !empty($_REQUEST['fname'])){  ?>
-                <?php $fname =  $_REQUEST['fname'];
-                 } ?>
+                <?php if (isset($_REQUEST['fname']) && !empty($_REQUEST['fname'])) {
+                    $fname = htmlspecialchars($_REQUEST['fname']);
+                }?>
                 <br>
-                <?php if (isset($_REQUEST['lname']) && !empty($_REQUEST['lname'])){  ?>
-                     <?php $lname = $_REQUEST['lname'];  } ?>
+                <?php if (isset($_REQUEST['lname']) && !empty($_REQUEST['lname'])) {
+                    $lname = htmlspecialchars($_REQUEST['lname']);
+                }?>
+            </p>
+            <p>
+                First Name: <?php echo $fname; ?><br>
+                Last Name: <?php echo $lname; ?>
             </p>
         </div>
     </div>
