@@ -1,0 +1,15 @@
+Instructions:
+
+ 
+
+Use Bootstrap to create a responsive navigation bar according to the design specifications provided.
+Design Specifications:
+a) Create a navigation bar that includes a logo and links to three sections: Home, About, and Contact.
+
+b) The navigation bar should be responsive and collapse into a hamburger menu on smaller screens.
+
+c) When the hamburger menu is clicked, the menu items should slide down.
+
+d) The logo should be aligned to the left side of the navigation bar and the menu items should be aligned to the right side of the navigation bar.
+
+The active menu item should be highlighted.
